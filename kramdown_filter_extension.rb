@@ -1,4 +1,6 @@
-$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/vendor/gems/kramdown-0.4.0/lib"
+if File.exist? "#{File.dirname(__FILE__)}/vendor/gems/kramdown-0.4.0"
+  $LOAD_PATH.unshift "#{File.dirname(__FILE__)}/vendor/gems/kramdown-0.4.0/lib"
+end
 require 'kramdown'
 
 class KramdownFilterExtension < Radiant::Extension
