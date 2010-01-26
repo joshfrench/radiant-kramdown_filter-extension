@@ -1,7 +1,11 @@
 Gem::Specification.new do |s|
+  s.authors = 'johnmuhl'
+  s.email = 'git@johnmuhl.com'
+  s.homepage = 'http://johnmuhl.com/junk/markdown'
   s.name = 'radiant-kramdown_filter-extension'
   s.version = '1.0.0'
-  s.summary = 'Radiant extension that wraps the pure-Ruby kramdown Markdown converter.'
+  s.summary = 'kramdown filter for Radiant CMS'
+  s.description = 'Radiant CMS extension that wraps the pure-Ruby kramdown Markdown converter.'
   s.files = [
     "kramdown_filter_extension.rb",
     "lib",
