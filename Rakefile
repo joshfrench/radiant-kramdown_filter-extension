@@ -7,6 +7,7 @@ begin
     gem.email = "git@johnmuhl.com"
     gem.homepage = "http://github.com/johnmuhl/radiant-kramdown_filter-extension"
     gem.authors = ["johnmuhl"]
+    gem.add_dependency 'kramdown', '~> 0.4'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
